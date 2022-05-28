@@ -1,0 +1,89 @@
+.movie-container {
+    background-color: #faf8f8;
+    padding: 50px;
+}
+
+.movie-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.movie-item {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 1rem;
+    border: 0.1px solid #ff0000;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.movie-item-image {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.movie-item-image img {
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.movie-item-info {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.remove {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ff0c0c;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.remove:hover {
+    cursor: pointer;
+    background: #ff0c0c;
+    color: #000000;
+    outline: 0;
+}
+
+
+.link {
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: black;
+    padding: 10px 22px;
+    color: #ff0000;
+}
+
+.create-list-button{
+    margin-top: 27px;
+}
+
+.bottom-group p{
+    padding: 26px 0px;
+}

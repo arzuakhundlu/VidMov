@@ -1,0 +1,70 @@
+.remove-button:hover {
+    cursor: pointer;
+    background: #080303;
+    color: #E10000;
+    outline: 0;
+    transition: 0.4s;
+}
+
+.list-name{
+    margin-bottom: 5px;
+}
+
+.fav-list{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.border-none {
+    border: none;
+}
+
+.fav-inp {
+    border-radius: 50px;
+    border: 1px solid red;
+    font-size: 1rem;
+    width: 75%;
+    line-height: 2;
+    padding: 7px 35px ;
+    outline: chocolate;
+}
+
+.remove-button {
+    font-weight: bolder;
+    font-size: 0.8rem;
+    line-height: 1.15;
+    letter-spacing: 0.1rem;
+    background: #E10000;
+    color: black;
+    border: 1px solid transparent;
+    transition:  0.4s;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 8px 12px;
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+.card-image{
+    width: 25%;
+}
+
+.card-text{
+    margin: 15px;
+}
+.list-name-box {
+    width: auto;
+}
+
+.list-button {
+    text-decoration: none;
+    padding: 1rem 1.3rem;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+}
+
+.margin-top {
+    margin-top: 1rem;
+}

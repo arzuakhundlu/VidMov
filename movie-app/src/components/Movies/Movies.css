@@ -1,0 +1,41 @@
+.movie-card{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.movie-card-image img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.movie-card-image{
+    width: 25%;
+}
+
+.movie-text{
+    width: 30%;
+    padding: 8px 40px;  
+}
+
+.movie-text p{
+    margin: 8px 0;
+}
+
+.search-submit button{
+    padding: 5px 10px;
+    background-color: black;
+    color: red;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-top: 35px;
+}
+
+/* @media screen and (max-width: 600px) {
+    .search-submit button{
+        padding: 5px 10px;
+        border-radius: 1px;
+        margin-top: 5px;
+    }
+  } */
+  
