@@ -16,7 +16,7 @@ const Header = () => {
       <div>
       <img className="header-logo" src={logo} alt="vidmov" />
       </div>
-      <ul>
+      <ul className="pageLink">
         <li>
           <Link to='/'> Home </Link>
         </li>

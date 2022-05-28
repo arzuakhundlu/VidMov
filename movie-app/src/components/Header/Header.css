@@ -26,3 +26,15 @@
 .header ul li a:hover {
  color: red;
 }
+
+@media screen and (max-width: 600px){
+    .header{
+        background-color: black;
+        display: block;
+        align-items: center;
+    }
+    .header ul{
+        list-style: none;
+        display: block;
+    }
+}
